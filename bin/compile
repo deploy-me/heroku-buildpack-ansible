@@ -52,5 +52,5 @@ cat <<EOT >> "$PROFILE_PATH"
 EOT
 
 mkdir -p "$BUILD_DIR/.local"
-cp -R $HOME/.local/* "$BUILD_DIR/.local/" &> /dev/null
-cp -R $HOME/.ansible "$BUILD_DIR/.ansible" &> /dev/null
+cp -R $HOME/.local/* "$BUILD_DIR/.local/" #&> /dev/null
+cp -R $HOME/.ansible "$BUILD_DIR/.ansible" #&> /dev/null
