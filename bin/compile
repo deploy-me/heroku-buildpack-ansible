@@ -54,6 +54,6 @@ EOT
 mkdir -p "$BUILD_DIR/.local"
 cp -R $HOME/.local/* "$BUILD_DIR/.local/" &> /dev/null
 
-if [[ -d "$BUILD_DIR/.ansible" ]]; then
+if [[ -d "$HOME/.ansible" ]]; then
     cp -R $HOME/.ansible "$BUILD_DIR/.ansible" &> /dev/null
 fi
